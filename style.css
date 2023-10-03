@@ -8,7 +8,7 @@ header{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 33vw;
-    color: rgb(4239,235,228);
+    color: rgb(239,235,228);
 }
 
 section{
@@ -26,6 +26,19 @@ section{
     width: 150px;
     height: 30px;
     border-radius: 10px;
+}
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 20px;
+    color: rgb(239,235,228);
+}
+#pisi{
+    background-color: aliceblue;
+    
+}
+.pisi2{
+    padding: 5px;
 }
 
 @media only screen and (max-width: 600px){
